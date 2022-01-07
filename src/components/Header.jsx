@@ -8,26 +8,26 @@ function Header() {
     <header className="header py-4 py-md-0">
       <div className="align-items-center d-flex h-100 justify-content-between">
         <img src={logo} alt="Logo" className="logo ms-4"/>
-        <nav className="d-none d-md-block navbar">
-          <ul className="d-flex list-unstyled">
+        <nav className="d-none d-md-block navbar header-nav p-0">
+          <ul className="d-flex list-unstyled m-0 nav-container p-lg-0">
             <li className="nav-item text-center">
-              <NavLink to="/" className="nav-link">
-              <em className="d-none d-lg-inline-block">00</em> HOME
+              <NavLink to="/" className="header-link mx-lg-4 nav-link p-0 text-uppercase text-white">
+              <em className="d-none d-lg-inline-block fst-normal fw-bold">00</em> Home
               </NavLink>
             </li>
             <li className="nav-item text-center">
-              <NavLink to="/destination" className="nav-link">
-              <em className="d-none d-lg-inline-block">01</em> DESTINATION
+              <NavLink to="/destination" className="header-link mx-lg-4 nav-link p-0 text-uppercase text-white">
+              <em className="d-none d-lg-inline-block fst-normal fw-bold">01</em> Destination
               </NavLink>
             </li>
             <li className="nav-item text-center">
-              <NavLink to="/crew" className="nav-link">
-              <em className="d-none d-lg-inline-block">02</em> CREW
+              <NavLink to="/crew" className="header-link mx-lg-4 nav-link p-0 text-uppercase text-white">
+              <em className="d-none d-lg-inline-block fst-normal fw-bold">02</em> Crew
               </NavLink>
             </li>
             <li className="nav-item text-center">
-              <NavLink to="/technology" className="nav-link">
-              <em className="d-none d-lg-inline-block">03</em> TECHNOLOGY
+              <NavLink to="/technology" className="header-link mx-lg-4 nav-link p-0 text-uppercase text-white">
+              <em className="d-none d-lg-inline-block fst-normal fw-bold">03</em> Technology
               </NavLink>
             </li>
           </ul>

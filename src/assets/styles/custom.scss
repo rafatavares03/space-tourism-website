@@ -1,16 +1,35 @@
-.header {
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import './variables';
 
+.header {
   .logo {
-    height: 40px;
-    width: 40px;
+    height: $logo-mobile--size;
+    width: $logo-mobile--size;
+  }
+
+  .header-nav {
+    font-family: $header-nav--font;
+    font-size: $header-nav--font-size;
+    letter-spacing: $header-nav--letter-spacing;
+  }
+
+  .nav-container {
+    background-color: $nav-container-tablet--bg-color;
+    padding: $nav-container-tablet--padding;
+  }
+
+  .header-link {
+    height: $header-link--height;
+    line-height: $header-link--height;
+    margin: $header-link-tablet--margin;
   }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 720px){
   .header {
     .logo {
-      height: 48px;
-      width: 48px;
+      height: $logo-size;
+      width: $logo-size;
     }
   }
 }
