@@ -1,0 +1,60 @@
+.header {
+  position: relative;
+  .logo {
+    height: $logo-mobile--size;
+    margin-left: $logo--margin;
+    width: $logo-mobile--size;
+  }
+
+  .header-line {
+    background-color: $header-line--bg-color;
+    height: $header-line--height;
+    width: $header-line--width;
+    position: absolute;
+    top: 50%;
+    left: 166px;
+  }
+
+  .header-nav {
+    font-family: $header-nav--font;
+    font-size: $header-nav--font-size;
+    letter-spacing: $header-nav--letter-spacing;
+  }
+
+  .nav-container {
+    background-color: $nav-container-tablet--bg-color;
+    padding: $nav-container-tablet--padding;
+  }
+
+  .header-link {
+    height: $header-link--height;
+    line-height: $header-link--height;
+    margin: $header-link-tablet--margin;
+  }
+
+}
+
+@media screen and (min-width: 720px){
+  .header {
+    .logo {
+      height: $logo--size;
+      margin-left: $logo-tablet--margin;
+      width: $logo--size;
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .header {
+    margin-top: $header-desktop--margin;
+
+    .nav-container {
+      background-color: $nav-container-desktop--bg-color;
+      backdrop-filter: blur(5px);
+    }
+
+    em {
+      margin-right: $link-em--margin;
+    }
+  }
+}

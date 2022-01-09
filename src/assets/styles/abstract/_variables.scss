@@ -1,0 +1,53 @@
+// Colors
+$dark-blue: #0b0d17;
+$dark-grey: #151923;
+$light-grey: #979797;
+$lighter-blue: #d2d8f9;
+$white: #fff;
+$transparent-white: #fff4;
+
+
+// Typography
+$default-font: 'Bellefair', sans-serif;
+$secundary-font: 'Barlow Condensed', sans-serif;
+$text-font: 'Barlow', sans-serif;
+
+
+
+
+
+// Header.jsx
+$header-desktop--margin: 2.5rem;
+
+
+$header-line--bg-color: $light-grey;
+$header-line--height: 1px;
+$header-line--width: 475px;
+
+
+$header-link--height: 96px;
+$header-link-tablet--margin: 0 19px;
+
+
+$header-nav--font: $secundary-font;
+$header-nav--font-size: 1rem;
+$header-nav--letter-spacing: 2.7px;
+
+
+$link-active--border: solid 3px $white;
+$link-hover--border: solid 3px $light-grey;
+
+
+$link-em--margin: 0.75rem;
+
+
+$logo--size: 48px;
+$logo--margin: 1.5rem;
+$logo-mobile--size: 40px;
+$logo-tablet--margin: 2.45rem;
+
+
+$nav-container-desktop--bg-color: $transparent-white;
+$nav-container-tablet--bg-color: $dark-grey;
+$nav-container-tablet--padding: 29px;
+$nav-container--opacity: 0.4;
