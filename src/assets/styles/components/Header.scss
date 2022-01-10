@@ -9,10 +9,11 @@
   .header-line {
     background-color: $header-line--bg-color;
     height: $header-line--height;
+    left: $header-line--left;
     width: $header-line--width;
-    position: absolute;
-    top: 50%;
-    left: 166px;
+    position: $header-line--position;
+    top: $header-line--top;
+    z-index: $header-line--z-index;
   }
 
   .header-nav {
@@ -51,6 +52,16 @@
     .nav-container {
       background-color: $nav-container-desktop--bg-color;
       backdrop-filter: blur(5px);
+    }
+
+    li {
+      &:first-child {
+        margin-left: $header-li-desktop--margin-left;
+      }
+  
+      &:last-child {
+        margin-right: $header-li-desktop--margin-right;
+      }
     }
 
     em {
