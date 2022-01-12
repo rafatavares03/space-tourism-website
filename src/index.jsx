@@ -13,7 +13,7 @@ import {
 } from "./components";
 
 ReactDOM.render(
-  <Router>
+  <Router >
     <Header />
     <Routes>
       <Route path="/" element={<Home />} />
