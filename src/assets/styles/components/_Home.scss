@@ -1,0 +1,33 @@
+.home {
+  .home-description {
+    color: $home-desc--color;
+    font-family: $home-desc--font-family;
+    font-size: $home-desc-mobile--font-size;
+    letter-spacing: $home-desc--letter-spacing;
+  }
+
+  .home-title {
+    font-family: $home-title--font-family;
+    font-size: $home-title-mobile--font-size;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .home {
+    .home-description {
+      font-size: $home-desc-tablet--font-size;
+    }
+
+    .home-title {
+      font-size: $home-title-tablet--font-size;
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .home {
+    .home-description {
+      font-size: $home-desc-desktop--font-size;
+    }
+  }
+}

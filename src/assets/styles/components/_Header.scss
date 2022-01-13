@@ -1,5 +1,5 @@
 .header {
-  position: relative;
+  position: $header--position;
   .logo {
     height: $logo-mobile--size;
     margin-left: $logo--margin;

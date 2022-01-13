@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
 @import './abstract/variables';
 @import './components/Header';
+@import './components/Home';
+
+h1 {
+  font-weight: $h1--font-weight;
+}
 
 .background {
-  width: 100vw;
-  height: 100vh;
-  z-index: -10;
+  width: $background--width;
+  min-height: $background--min-height;
+  z-index: $background--z-index;
 }
 
 .link {
@@ -16,4 +21,15 @@
 
 .link.active {
   border-bottom: $link-active--border;
+}
+
+.text {
+  color: $text--color;
+  font-family: $text--font-family;
+}
+
+@media screen and (min-width: 960px) {
+  .text {
+    font-size: $text-desktop--font-size;
+  }
 }

@@ -16,7 +16,29 @@ $text-font: 'Barlow', sans-serif;
 
 
 
+// Default styles
+$background--width: 100vw;
+$background--min-height: 100vh;
+$background--z-index: -10;
+
+
+$h1--font-weight: 400;
+
+
+$link-active--border: solid 3px $white;
+$link-hover--border: solid 3px $light-grey;
+
+
+$text--color: $lighter-blue;
+$text-desktop--font-size: 1.125rem;
+$text--font-family: $text-font;
+
+
+
+
+
 // Header.jsx
+$header--position: relative;
 $header-desktop--margin: 2.5rem;
 
 
@@ -42,10 +64,6 @@ $header-nav--font-size: 1rem;
 $header-nav--letter-spacing: 2.7px;
 
 
-$link-active--border: solid 3px $white;
-$link-hover--border: solid 3px $light-grey;
-
-
 $link-em--margin: 0.75rem;
 
 
@@ -58,3 +76,19 @@ $logo-tablet--margin: 2.45rem;
 $nav-container-desktop--bg-color: $transparent-white;
 $nav-container-tablet--bg-color: $dark-grey;
 $nav-container-tablet--padding: 29px;
+
+
+
+
+// Home.jsx
+$home-desc--color: $lighter-blue;
+$home-desc--font-family: $secundary-font;
+$home-desc-mobile--font-size: 1rem;
+$home-desc-tablet--font-size: 1.25rem;
+$home-desc-desktop--font-size: 1.75rem;
+$home-desc--letter-spacing: 4.75px;
+
+
+$home-title--font-family: $default-font;
+$home-title-mobile--font-size: 6.25rem;
+$home-title-tablet--font-size: 9.375rem;  
