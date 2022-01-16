@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../assets/images/shared/logo.svg';
-import menu from '../assets/images/shared/icon-hamburger.svg';
+import toggle from '../assets/images/shared/icon-hamburger.svg';
 
-function Header() {
+export default function Header() {
   return (
     <header className="header py-4 py-md-0">
       <div className="align-items-center d-flex h-100 justify-content-between">
@@ -33,10 +33,8 @@ function Header() {
             </li>
           </ul>
         </nav>
-        <img src={menu} alt="Menu" className="d-md-none me-4"/>
+        <img src={toggle} alt="Menu" className="d-md-none me-4" data-bs-toggle="modal" data-bs-target="modal"/>
       </div>
     </header>
   )
 }
-
-export default Header;

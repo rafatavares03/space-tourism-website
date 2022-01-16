@@ -2,13 +2,13 @@
 $dark-blue: #0b0d17;
 $dark-grey: #151923;
 $light-grey: #979797;
-$lighter-blue: #d2d8f9;
+$light-blue: #d0d6f9;
 $white: #fff;
 $transparent-white: #fff1;
 
 
 // Typography
-$default-font: 'Bellefair', sans-serif;
+$primary-font: 'Bellefair', sans-serif;
 $secundary-font: 'Barlow Condensed', sans-serif;
 $text-font: 'Barlow', sans-serif;
 
@@ -29,9 +29,10 @@ $link-active--border: solid 3px $white;
 $link-hover--border: solid 3px $light-grey;
 
 
-$text--color: $lighter-blue;
+$text--color: $light-blue;
 $text-desktop--font-size: 1.125rem;
 $text--font-family: $text-font;
+$text--font-size: 0.9375rem;
 
 
 
@@ -81,14 +82,20 @@ $nav-container-tablet--padding: 29px;
 
 
 // Home.jsx
-$home-desc--color: $lighter-blue;
+$home-desc--color: $light-blue;
 $home-desc--font-family: $secundary-font;
 $home-desc-mobile--font-size: 1rem;
 $home-desc-tablet--font-size: 1.25rem;
 $home-desc-desktop--font-size: 1.75rem;
-$home-desc--letter-spacing: 4.75px;
+$home-desc--letter-spacing: 2.7px;
 
 
-$home-title--font-family: $default-font;
-$home-title-mobile--font-size: 6.25rem;
+$home-explore--font-family: $primary-font;
+$home-explore--font-size: 1.25rem;
+$home-explore--letter-spacing: 1.25px;
+$home-explore--size: 150px;
+
+
+$home-title--font-family: $primary-font;
+$home-title-mobile--font-size: 5rem;
 $home-title-tablet--font-size: 9.375rem;  

@@ -10,6 +10,14 @@
     font-family: $home-title--font-family;
     font-size: $home-title-mobile--font-size;
   }
+
+  .explore {
+    font-family: $home-explore--font-family;
+    font-size: $home-explore--font-size;
+    letter-spacing: $home-explore--letter-spacing;
+    height: $home-explore--size;
+    width: $home-explore--size;
+  }
 }
 
 @media screen and (min-width: 720px) {

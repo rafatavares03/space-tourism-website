@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import {
   Header,
+  Modal,
   Home,
   Destination,
   Crew,
@@ -15,6 +16,7 @@ import {
 ReactDOM.render(
   <Router >
     <Header />
+    <Modal />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/destination" element={<Destination />} />
