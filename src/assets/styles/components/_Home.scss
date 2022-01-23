@@ -22,12 +22,22 @@
 
 @media screen and (min-width: 720px) {
   .home {
+    .home-texts {
+      max-width: $home-texts--width;
+    }
+
     .home-description {
       font-size: $home-desc-tablet--font-size;
     }
 
     .home-title {
       font-size: $home-title-tablet--font-size;
+    }
+
+    .explore {
+      font-size: $home-explore-tablet--font-size;
+      height: $home-explore-tablet--size;
+      width: $home-explore-tablet--size;
     }
   }
 }

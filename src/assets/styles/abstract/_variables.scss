@@ -30,9 +30,10 @@ $link-hover--border: solid 3px $light-grey;
 
 
 $text--color: $light-blue;
-$text-desktop--font-size: 1.125rem;
 $text--font-family: $text-font;
 $text--font-size: 0.9375rem;
+$text-tablet--font-size: 1rem;
+$text-desktop--font-size: 1.125rem;
 
 
 
@@ -40,7 +41,9 @@ $text--font-size: 0.9375rem;
 
 // Header.jsx
 $header--position: relative;
-$header-desktop--margin: 2.5rem;
+
+
+$header-container--padding: 2.5rem;
 
 
 $header-li-desktop--margin-left: calc(5vw + 24px);
@@ -82,6 +85,8 @@ $nav-container-tablet--padding: 29px;
 
 
 // Home.jsx
+$home-texts--width: 445px;
+
 $home-desc--color: $light-blue;
 $home-desc--font-family: $secundary-font;
 $home-desc-mobile--font-size: 1rem;
@@ -94,6 +99,9 @@ $home-explore--font-family: $primary-font;
 $home-explore--font-size: 1.25rem;
 $home-explore--letter-spacing: 1.25px;
 $home-explore--size: 150px;
+$home-explore-tablet--font-size: 2rem;
+$home-explore-tablet--letter-spacing: 2px;
+$home-explore-tablet--size: 242px;
 
 
 $home-title--font-family: $primary-font;

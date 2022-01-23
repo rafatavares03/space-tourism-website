@@ -47,7 +47,9 @@
 
 @media screen and (min-width: 960px) {
   .header {
-    margin-top: $header-desktop--margin;
+    .header-container {
+      padding-top: $header-container--padding;
+    }
 
     .nav-container {
       background-color: $nav-container-desktop--bg-color;
