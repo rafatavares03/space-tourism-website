@@ -11,8 +11,8 @@ export default function Home() {
         <source media="(min-width: 540px)" srcSet={bgTablet} className="h-100 w-100"/>
         <img src={bgMobile} alt="Background" className="h-100 w-100"/>
       </picture>
-      <div className="container home mt-3 mt-md-5 p-0">
-        <div className="home-texts mx-md-auto pt-md-5 px-4 px-md-0 text-center">
+      <div className="container d-lg-flex home justify-content-between mt-3 mt-md-5 mt-lg-0 p-0 pb-lg-5 px-lg-5">
+        <div className="home-texts mb-lg-5 mx-md-auto mx-lg-0 pb-lg-5 ps-xxl-5 pt-md-5 pt-lg-0 px-4 px-md-0 text-center text-lg-start">
           <p className="home-description mb-md-2 mt-md-2 text-uppercase">So, you want to travel to</p>
           <h1 className="home-title mb-3 mb-md-2 text-uppercase text-white">Space</h1>
           <p className="mb-2 p-0 text">
@@ -22,7 +22,7 @@ export default function Home() {
             truly out of this world experience!
           </p>
         </div>
-        <div className="mt-4 mt-md-5 py-5 text-center">
+        <div className="mb-lg-5 mt-4 mt-md-5 pe-xxl-5 py-5 text-center">
           <a href="/" className="
           align-items-center
           bg-white
@@ -30,6 +30,7 @@ export default function Home() {
           explore
           justify-content-center
           my-md-5
+          my-lg-0
           mx-auto
           rounded-circle
           text-black

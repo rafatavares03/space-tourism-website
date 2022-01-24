@@ -20,10 +20,10 @@
   }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .home {
     .home-texts {
-      max-width: $home-texts--width;
+      max-width: $home-texts-tablet--width;
     }
 
     .home-description {
@@ -42,10 +42,24 @@
   }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 992px) {
   .home {
+    .home-texts {
+      max-width: $home-texts-desktop--width;
+    }
+
     .home-description {
       font-size: $home-desc-desktop--font-size;
+    }
+
+    .explore {
+      height: $home-explore-desktop--size;
+      transition: $home-explore--transition;
+      width: $home-explore-desktop--size;
+      
+      &:hover {
+        box-shadow: $home-explore-hover--box-shadow;
+      }
     }
   }
 }

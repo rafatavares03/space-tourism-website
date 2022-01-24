@@ -40,6 +40,7 @@ $text-desktop--font-size: 1.125rem;
 
 
 // Header.jsx
+$header-desktop--margin: 15.5rem;
 $header--position: relative;
 
 
@@ -53,9 +54,8 @@ $header-li-desktop--margin-right: calc(10vw - 2px);
 $header-line--bg-color: $light-grey;
 $header-line--height: 1px;
 $header-line--left: 166px;
-$header-line--width: 475px;
+$header-line--width: 33vw;
 $header-line--position: absolute;
-$header-line--top: 50%;
 $header-line--z-index: 10;
 
 
@@ -85,7 +85,9 @@ $nav-container-tablet--padding: 29px;
 
 
 // Home.jsx
-$home-texts--width: 445px;
+$home-texts-tablet--width: 51.5ch;
+$home-texts-desktop--width: 57.7ch;
+
 
 $home-desc--color: $light-blue;
 $home-desc--font-family: $secundary-font;
@@ -95,10 +97,13 @@ $home-desc-desktop--font-size: 1.75rem;
 $home-desc--letter-spacing: 2.7px;
 
 
+$home-explore--transition: all 1s;
 $home-explore--font-family: $primary-font;
 $home-explore--font-size: 1.25rem;
 $home-explore--letter-spacing: 1.25px;
 $home-explore--size: 150px;
+$home-explore-desktop--size: 274px;
+$home-explore-hover--box-shadow: 0 0 0 88px $transparent-white;
 $home-explore-tablet--font-size: 2rem;
 $home-explore-tablet--letter-spacing: 2px;
 $home-explore-tablet--size: 242px;

@@ -6,7 +6,7 @@ import toggle from '../assets/images/shared/icon-hamburger.svg';
 export default function Header() {
   return (
     <header className="header py-4 py-md-0">
-      <div className="align-items-center d-flex header-container h-100 justify-content-between">
+      <div className="align-items-center d-flex header-container h-100 justify-content-between position-relative">
         <img src={logo} alt="Logo" className="logo"/>
         <div className="d-none d-xxl-block header-line"></div>
         <nav className="d-none d-md-block navbar header-nav p-0">
