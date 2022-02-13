@@ -1,3 +1,19 @@
-.width {
-  width: 150px !important;
+.modal {
+  .modal-dialog {
+    height: $modal-dialog--height;
+    margin: 0;
+    margin-left: $modal-dialog--margin-left;
+    position: $modal-dialog--position;
+  }
+
+  .modal-content {
+    @include blur-blackground;
+    border: $modal-content--border;
+    border-radius: $modal-content--border;
+    height: $modal-content--height;
+  }
+}
+
+.modal-backdrop.show {
+  opacity: 0 !important;
 }

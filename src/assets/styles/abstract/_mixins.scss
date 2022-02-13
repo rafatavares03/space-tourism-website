@@ -1,0 +1,4 @@
+@mixin blur-blackground() {
+  background-color: $blur-bg--color;
+  backdrop-filter: $blur-bg--blur;
+}

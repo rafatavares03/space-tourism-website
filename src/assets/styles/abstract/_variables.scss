@@ -22,6 +22,9 @@ $background--min-height: 100vh;
 $background--z-index: -10;
 
 
+$blur-bg--blur: blur(10px);
+$blur-bg--color: $transparent-white;
+
 $h1--font-weight: 400;
 
 
@@ -80,6 +83,17 @@ $logo-tablet--margin: 2.45rem;
 $nav-container-desktop--bg-color: $transparent-white;
 $nav-container-tablet--bg-color: $dark-grey;
 $nav-container-tablet--padding: 29px;
+
+
+//Modal
+$modal-content--border: 0;
+$modal-content--height: 100%;
+
+
+$modal-dialog--height: 100%;
+$modal-dialog--margin-left: 32.26%;
+$modal-dialog--position: relative;
+
 
 
 

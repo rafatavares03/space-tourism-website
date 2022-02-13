@@ -53,8 +53,7 @@
     }
 
     .nav-container {
-      background-color: $nav-container-desktop--bg-color;
-      backdrop-filter: blur(10px);
+      @include blur-blackground;
     }
 
     li {
