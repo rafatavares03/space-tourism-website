@@ -25,11 +25,20 @@ $background--z-index: -10;
 $blur-bg--blur: blur(10px);
 $blur-bg--color: $transparent-white;
 
+
+$navbar-items--font: $secundary-font;
+$navbar-items--font-size: 1rem;
+$navbar-items--letter-spacing: 2.7px;
+
+
+$navbar-items-active--border: solid 3px $white;
+$navbar-items-hover--border: solid 3px $light-grey;
+
+
+$navbar-em--margin: 0.75rem;
+
+
 $h1--font-weight: 400;
-
-
-$link-active--border: solid 3px $white;
-$link-hover--border: solid 3px $light-grey;
 
 
 $text--color: $light-blue;
@@ -66,12 +75,6 @@ $header-link--height: 96px;
 $header-link-tablet--margin: 0 19px;
 
 
-$header-nav--font: $secundary-font;
-$header-nav--font-size: 1rem;
-$header-nav--letter-spacing: 2.7px;
-
-
-$link-em--margin: 0.75rem;
 
 
 $logo--size: 48px;
@@ -93,6 +96,9 @@ $modal-content--height: 100%;
 $modal-dialog--height: 100%;
 $modal-dialog--margin-left: 32.26%;
 $modal-dialog--position: relative;
+
+
+$modal-header--padding: 34px 27px;
 
 
 

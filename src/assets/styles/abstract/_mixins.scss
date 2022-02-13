@@ -2,3 +2,22 @@
   background-color: $blur-bg--color;
   backdrop-filter: $blur-bg--blur;
 }
+
+@mixin navbar-items() {
+  .navbar-items {
+    font-family: $navbar-items--font;
+    font-size: $navbar-items--font-size;
+    letter-spacing: $navbar-items--letter-spacing;
+
+    &:hover {
+      border-bottom: $navbar-items-hover--border;
+    }
+
+    em {
+      margin-right: $navbar-em--margin;
+    }
+  }
+  .navbar-items.active {
+    border-bottom: $navbar-items-active--border;
+  }
+}

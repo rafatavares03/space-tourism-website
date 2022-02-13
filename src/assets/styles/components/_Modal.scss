@@ -1,4 +1,5 @@
 .modal {
+  @include navbar-items;
   .modal-dialog {
     height: $modal-dialog--height;
     margin: 0;
@@ -11,6 +12,10 @@
     border: $modal-content--border;
     border-radius: $modal-content--border;
     height: $modal-content--height;
+  }
+
+  .modal-header {
+    padding: $modal-header--padding;
   }
 }
 

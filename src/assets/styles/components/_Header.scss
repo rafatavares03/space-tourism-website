@@ -1,4 +1,5 @@
 .header {
+  @include navbar-items;
   position: $header--position;
   .logo {
     height: $logo-mobile--size;
@@ -13,12 +14,6 @@
     width: $header-line--width;
     position: $header-line--position;
     z-index: $header-line--z-index;
-  }
-
-  .header-nav {
-    font-family: $header-nav--font;
-    font-size: $header-nav--font-size;
-    letter-spacing: $header-nav--letter-spacing;
   }
 
   .nav-container {
@@ -64,10 +59,6 @@
       &:last-child {
         margin-right: $header-li-desktop--margin-right;
       }
-    }
-
-    em {
-      margin-right: $link-em--margin;
     }
   }
 }

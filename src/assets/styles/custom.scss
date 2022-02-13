@@ -13,16 +13,6 @@ h1 {
   z-index: $background--z-index;
 }
 
-.link {
-  &:hover {
-    border-bottom: $link-hover--border;
-  }
-}
-
-.link.active {
-  border-bottom: $link-active--border;
-}
-
 .text {
   color: $text--color;
   font-family: $text--font-family;
