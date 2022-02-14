@@ -17,7 +17,21 @@
   .modal-header {
     padding: $modal-header--padding;
   }
+
+  .navbar-items {
+    margin-bottom: $modal-nav-items--margin;
+
+    &:hover {
+      border-bottom: 0;
+    }
+  }
+  
+  .navbar-items.active {
+    border-bottom: 0;
+    border-right: $navbar-items-active--border;
+  }
 }
+
 
 .modal-backdrop.show {
   opacity: 0 !important;

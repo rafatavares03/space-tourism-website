@@ -54,9 +54,9 @@ export default function Header() {
           close={<img src={close} alt="close" onClick={togglePopup}></img>}
           toggle={togglePopup}
         />
-        <ModalBody>
+        <ModalBody className="ms-3 pe-0 ps-3 pt-0">
           <Navbar container={false} className="p-0">
-            <ul className="d-flex flex-column list-unstyled m-0 nav-container p-0">
+            <ul className="d-flex flex-column list-unstyled m-0 nav-container p-0 w-100">
               <NavItem>
                 <NavLink to="/" className="mx-lg-4 nav-link navbar-items p-0 text-uppercase text-white">
                   <em className="d-inline-block fst-normal fw-bold">00</em>Home
