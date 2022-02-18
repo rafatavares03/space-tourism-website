@@ -3,8 +3,9 @@
     {
       "name": "Moon",
       "images": {
-        "png": "./assets/images/destination/image-moon.png",
-        "webp": "./assets/images/destination/image-moon.webp"
+        "blue": "image-moon.png",
+        "png": "import Moon from '../assets/images/destination/image-moon.png'",
+        "webp": "../assets/images/destination/image-moon.webp"
       },
       "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
       "distance": "384,400 km",
@@ -13,6 +14,7 @@
     {
       "name": "Mars",
       "images": {
+        "blue": "image-mars.png",
         "png": "./assets/destination/image-mars.png",
         "webp": "./assets/destination/image-mars.webp"
       },
@@ -23,6 +25,7 @@
     {
       "name": "Europa",
       "images": {
+        "blue": "image-europa.png",
         "png": "./assets/destination/image-europa.png",
         "webp": "./assets/destination/image-europa.webp"
       },
@@ -33,6 +36,7 @@
     {
       "name": "Titan",
       "images": {
+        "blue": "image-titan.png",
         "png": "./assets/destination/image-titan.png",
         "webp": "./assets/destination/image-titan.webp"
       },
